@@ -1,0 +1,868 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .helmet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+}
+
+
+.boxTwo {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url("img/bikes");
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxOne {
+    background-color: #bf404c;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.boxOne .txtDv {
+    width: 354px;
+    height: 466px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.txtDv img {
+    width: 160px;
+    height: 58px;
+}
+
+.txtDv h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 72px;
+    width: 168px;
+    color: white;
+}
+
+.txtDv p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 287px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.sectionOne {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.helmetCard {
+    width: 270.8px;
+    height: 378.2px;
+
+}
+
+.imgHelmet {
+    width: 223px;
+    height: 237px;
+    background-image: url("img/firstHelmet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+}
+
+.helmetCard:nth-of-type(2) .imgHelmet {
+    background-image: url("img/secondhelmet.png");
+}
+
+.helmetCard:nth-of-type(3) .imgHelmet {
+    background-image: url("img/thirdhelmet.png");
+}
+
+.helmetCard:nth-of-type(4) .imgHelmet {
+    background-image: url("img/fourthhelmet.png");
+}
+
+.textHelmet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.textHelmet h3 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.textHelmet p {
+    font-style: 14px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.textHelmet a {
+    color: black;
+    font-size: 14px;
+    border: 2;
+}
+
+.sectionTwo {
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/sctwobg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scTwoImg {
+    width: 579px;
+    height: 570px;
+    background-image: url("img/helmetss");
+    width: 579px;
+    height: 570px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scTwoTxt {
+    width: 579px;
+    height: 570px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.scTwoTxt h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    width: 436px;
+    font-weight: 400;
+}
+
+.scTwoTxt h5 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    width: 322.4px;
+    font-weight: 400;
+    word-break: break-word;
+    line-height: 1.2;
+    color: #bf404c !important;
+    letter-spacing: 2px;
+    margin-top: 20px;
+
+}
+
+.scTwoTxt p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 521.4px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.scTwoTxt a {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    text-decoration-color: #bf404c;
+
+}
+
+.sectionThree {
+    width: 100%;
+    height: 439px;
+    background-color: #bf404c;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sectionThree iframe {
+    position: relative;
+    top: -50px;
+    width: 55%;
+    height: 100%;
+}
+
+.sectionFour {
+    width: 100%;
+    height: 90vh;
+    background-image: url("img/scfourbg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.scFourTxt {
+    width: 731px;
+    height: 377.3px;
+    position: relative;
+    left: 90px;
+}
+
+.scFourTxt h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    width: 691px;
+    font-weight: 400;
+    color: white;
+}
+
+.scFourTxt h5 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    width: 691px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #bf404c !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transform: translateY(20px);
+}
+
+.scFourTxt p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 691px;
+    margin-top: 20px;
+    line-height: 1.6;
+    color: white;
+    transform: translateY(20px);
+}
+
+.scFourTxt a {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    text-decoration-color: #bf404c;
+
+}
+
+
+.sectionFive {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scFiveImg {
+    width: 579px;
+    height: 570px;
+    background-image: url("img/motoss");
+    width: 579px;
+    height: 570px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scFiveTxt {
+    width: 579px;
+    height: 570px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.scFiveTxt h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    width: 436px;
+    font-weight: 400;
+}
+
+.scFiveTxt h5 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    width: 322.4px;
+    font-weight: 400;
+    word-break: break-word;
+    line-height: 1.2;
+    color: #bf404c !important;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.scFiveTxt p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 521.4px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.scFiveTxt a {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    text-decoration-color: #bf404c;
+
+}
+
+.sectionSix {
+    width: 100%;
+    height: 80vh;
+    background-image: url("img/scSixbg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    /* width: 570px; */
+    height: 101px;
+}
+
+.top h2 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.bigBox {
+    width: 402.8px;
+    height: 402.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bigBox img {
+    width: 310px;
+    height: 296px;
+}
+
+.bigBox h3 {
+    font-size: 24px;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainAccecoriesBox {
+    width: 422px;
+    height: 422px;
+    display: flex;
+}
+
+.accecoriesBoxOne {
+    width: 211px;
+    height: 422px;
+}
+
+.accecoriesBoxTwo {
+    width: 211px;
+    height: 422px;
+}
+
+.curtain {
+    width: 211px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.curtain img {
+    width: 191.8px;
+    height: 119px;
+}
+
+.curtain h3 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 157.8px;
+}
+
+.guard {
+    width: 211px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.guard img {
+    width: 191.8px;
+    height: 119px;
+}
+
+.guard h3 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 157.8px;
+}
+
+.evo {
+    width: 211px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.evo img {
+    width: 191.8px;
+    height: 119px;
+}
+
+.evo h3 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 157.8px;
+}
+
+.bag {
+    width: 211px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bag img {
+    width: 191.8px;
+    height: 119px;
+}
+
+.bag h3 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 157.8px;
+}
+
+.sectionSeven {
+    width: 100%;
+    height: 80vh;
+    background-color: #bf404c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scSevenMainBox {
+    width: 697px;
+    height: 571.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.scSevenMainBox img {
+    width: 160px;
+    height: 58px;
+}
+
+.scSevenMainBox h3 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 531px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nameTxt {
+    width: 472px;
+    height: 47.2px;
+    background-color: #bf404c;
+    border: 1px solid white;
+    padding: 10px 12px;
+    color: white;
+}
+
+.emailTxt {
+    width: 472px;
+    height: 47.2px;
+    border: 1px solid white;
+    background-color: #bf404c;
+    padding: 10px 12px;
+    color: white;
+}
+
+.txtarea {
+    border: 1px solid white;
+    background-color: #bf404c;
+    padding: 10px 12px;
+    width: 475px;
+    color: white;
+}
+
+button {
+    width: 121px;
+    height: 42px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-image: none;
+}
+
+.nameTxt::placeholder {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.txtarea::placeholder {
+    font-size: 16px;
+    color: aliceblue;
+    font-family: "Open Sans", sans-serif;
+}
+
+.emailTxt::placeholder {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+
+@media(max-width:787px) {
+    .container .helmet {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -110%);
+        width: 255px;
+        height: 255px;
+    }
+
+    .txtDv h1 {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 39px;
+        width: fit-content;
+        color: white;
+    }
+
+    .txtDv h1 {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 39px;
+        width: fit-content;
+        color: white;
+    }
+
+
+    .boxOne .txtDv {
+        width: 191px;
+        height: 381px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        padding: 10px;
+    }
+
+    .txtDv img {
+        width: 93px;
+        height: 10px;
+    }
+
+    .sectionOne {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .scTwoTxt h2 {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 21px;
+        width: fit-content;
+        font-weight: 400;
+    }
+
+    .scTwoTxt p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+        margin-top: 20px;
+        line-height: 1.6;
+    }
+
+
+    .sectionOne {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sectionTwo,
+    .sectionThree {
+        height: fit-content;
+        padding: 20px 0px;
+    }
+
+    
+
+    .sectionThree iframe {
+        position: static;
+        width: 100%;
+    }
+
+    .txtDv img {
+        width: 87px;
+        height: 45px;
+    }
+
+    .scFourTxt p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+        margin-top: 20px;
+        line-height: 1.6;
+        color: white;
+        transform: translateY(20px);
+    }
+
+    .scFourTxt {
+        width: 731px;
+        height: fit-content;
+        position: static;
+        left: 90px;
+        padding: 20px;
+    }
+
+    .scFourTxt h2 {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 48px;
+        width: fit-content;
+        font-weight: 400;
+        color: white;
+    }
+
+    .scFourTxt h5 {
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        width: fit-content;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #bf404c !important;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transform: translateY(20px);
+    }
+
+    .scFiveTxt h2 {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 38px;
+        width: fit-content;
+        font-weight: 400;
+    }
+
+    .scFiveTxt h5 {
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        width: fit-content;
+        font-weight: 400;
+        word-break: break-word;
+        line-height: 1.2;
+        color: #bf404c !important;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+    .scFiveTxt {
+        width: fit-content;
+        height: 570px;
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+
+    .scFiveTxt p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+        margin-top: 20px;
+        line-height: 1.6;
+    }
+
+    .scFiveImg {
+        width: 579px;
+        height: 570px;
+        background-image: url(img/motoss);
+        width: 100%;
+        height: 570px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sectionFive {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .sectionSix {
+        width: 100%;
+        height: fit-content;
+        background-image: url(img/scSixbg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .bigBox {
+        width: fit-content;
+        height: 402.8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mainAccecoriesBox {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .txtDv p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .scSevenMainBox h3 {
+        font-size: 11px;
+        font-family: 'Trebuchet MS', sans-serif;
+        width: fit-content;
+        text-align: center;
+        color: white;
+    }
+
+    .scSevenMainBox img {
+        width: 97px;
+        height: 40px;
+    }
+
+    .nameTxt {
+        width: 90%;
+        height: fit-content;
+        background-color: #bf404c;
+        border: 1px solid white;
+        padding: 10px 12px;
+        color: white;
+    }
+
+    .emailTxt {
+        width: 90%;
+        height: fit-content;
+        border: 1px solid white;
+        background-color: #bf404c;
+        padding: 10px 12px;
+        color: white;
+    }
+
+    .txtarea {
+        border: 1px solid white;
+        background-color: #bf404c;
+        padding: 10px 12px;
+        width: 90%;
+        color: white;
+    }
+
+}
